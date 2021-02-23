@@ -20,9 +20,8 @@ void dodvojkovej(int cislo){
 }
 */
 
-int dodvojkovej(int cislo){
-	if (cislo == 0){
-		return 0;
+void dodvojkovej(int cislo){
+	if (cislo == 1){
 	}else{
 		dodvojkovej(cislo);
 		printf("%d", cislo);
